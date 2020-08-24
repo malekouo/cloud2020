@@ -8,10 +8,12 @@ spring:
   datasource: # 数据库
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
-    url: jdbc:mysql://127.0.0.1:3306/steamedbun?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    url: jdbc:mysql://132.232.42.162:3306/cloud?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
-    password: 123456
+    password: root
 
-mybatis: #mybatis 配置
-  mapper-locations: classpath:mapper/*.xml # 扫描resource文件夹下的mapper包
-  type-aliases-package: com.atguigu.springcloud.entities # s所有实体所在的包
+#mybatis: #mybatis 配置
+#  mapper-locations: classpath:mapper/*.xml # 扫描resource文件夹下的mapper包
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+#  # type-aliases-package: com.atguigu.springcloud.entities # s所有实体所在的包
