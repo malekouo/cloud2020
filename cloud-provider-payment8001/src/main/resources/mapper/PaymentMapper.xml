@@ -12,9 +12,9 @@
 	
   	<insert id="save" parameterType="com.atguigu.springcloud.entities.Payment">
   		INSERT INTO payment (
-			id,serial
+			serial
   		) VALUES (
-			#{id},#{serial}
+			#{serial}
   		)
   	</insert>
 

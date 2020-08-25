@@ -1,0 +1,6 @@
+server:
+  port: 80 # 服务端口号
+
+spring:
+  application:
+    name: cloud-consumer-order80  # 服务名称
